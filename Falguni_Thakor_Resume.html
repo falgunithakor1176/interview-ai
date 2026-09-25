@@ -6,7 +6,7 @@
   <style>
     @page {
       size: A4;
-      margin: 8mm 12mm;
+      margin: 6mm 10mm;
     }
     * {
       box-sizing: border-box;
@@ -16,9 +16,9 @@
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
       color: #2b2d42;
-      line-height: 1.35;
+      line-height: 1.3;
       background: #fff;
-      font-size: 12px;
+      font-size: 11.5px;
     }
     .container {
       max-width: 800px;
@@ -26,43 +26,43 @@
     }
     header {
       border-bottom: 2px solid #2563eb;
-      padding-bottom: 5px;
-      margin-bottom: 8px;
+      padding-bottom: 4px;
+      margin-bottom: 6px;
     }
     h1 {
-      font-size: 24px;
+      font-size: 22px;
       color: #1e3a8a;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       margin-bottom: 1px;
     }
     .subtitle {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
       color: #2563eb;
-      margin-bottom: 4px;
+      margin-bottom: 3px;
     }
     .contact-info {
-      font-size: 11.5px;
+      font-size: 11px;
       color: #4b5563;
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 10px;
     }
     .contact-info a {
       color: #2563eb;
       text-decoration: none;
     }
     section {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     h2 {
-      font-size: 13px;
+      font-size: 12px;
       text-transform: uppercase;
       color: #1e3a8a;
       border-bottom: 1px solid #e5e7eb;
-      padding-bottom: 2px;
-      margin-bottom: 5px;
+      padding-bottom: 1px;
+      margin-bottom: 4px;
       letter-spacing: 0.5px;
     }
     p {
@@ -79,17 +79,17 @@
     .skill-title {
       display: table-cell;
       font-weight: 700;
-      width: 160px;
-      padding: 1.5px 0;
+      width: 155px;
+      padding: 1px 0;
       color: #1f2937;
     }
     .skill-desc {
       display: table-cell;
-      padding: 1.5px 0;
+      padding: 1px 0;
       color: #374151;
     }
     .item {
-      margin-bottom: 5px;
+      margin-bottom: 4px;
     }
     .item:last-child {
       margin-bottom: 0;
@@ -102,40 +102,40 @@
     }
     .item-title {
       font-weight: 700;
-      font-size: 12.5px;
+      font-size: 11.8px;
       color: #111827;
     }
     .item-title a {
       color: #2563eb;
       text-decoration: none;
-      font-size: 11px;
+      font-size: 10.5px;
       font-weight: normal;
       margin-left: 4px;
     }
     .item-subtitle {
       font-style: italic;
       color: #4b5563;
-      font-size: 11.5px;
+      font-size: 11px;
     }
     .item-date {
-      font-size: 11px;
+      font-size: 10.5px;
       font-weight: 600;
       color: #4b5563;
     }
     ul {
       margin-left: 14px;
-      margin-top: 2px;
+      margin-top: 1px;
     }
     li {
-      margin-bottom: 1.5px;
+      margin-bottom: 1px;
       color: #374151;
     }
     .badge {
       background: #eff6ff;
       color: #1d4ed8;
-      font-size: 10.5px;
-      padding: 0.5px 5px;
-      border-radius: 4px;
+      font-size: 10px;
+      padding: 0.5px 4px;
+      border-radius: 3px;
       font-weight: 600;
       border: 1px solid #bfdbfe;
     }
@@ -157,7 +157,7 @@
     <section>
       <h2>Professional Objective</h2>
       <p>
-        Curious and motivated 3rd-year Computer Science Engineering student (CGPA: 8.4/10) with hands-on expertise in full-stack web development (React.js, Node.js, Express.js, MongoDB) and generative AI API integration. Skilled at architecting RESTful APIs, designing intuitive UI components, and building production-ready applications. Seeking a <strong>Software Engineering / Full Stack Intern</strong> opportunity to deliver high-impact software solutions.
+        Curious and motivated 3rd-year Computer Science Engineering student (CGPA: 8.4/10) with hands-on expertise in full-stack web development (React.js, Node.js, Express.js, TypeScript, MongoDB, PostgreSQL) and generative AI integration. Skilled at architecting RESTful APIs, designing intuitive UI components, and building production-ready applications. Seeking a <strong>Software Engineering / Full Stack Intern</strong> opportunity to deliver high-impact software solutions.
       </p>
     </section>
 
@@ -166,15 +166,15 @@
       <div class="skills-grid">
         <div class="skill-row">
           <div class="skill-title">Languages:</div>
-          <div class="skill-desc">JavaScript (ES6+), Python, Java, C</div>
+          <div class="skill-desc">JavaScript (ES6+), TypeScript, Python, Java, C</div>
         </div>
         <div class="skill-row">
           <div class="skill-title">Full-Stack Web Dev:</div>
           <div class="skill-desc">React 19, React Router v7, Node.js, Express.js (v5), HTML5, CSS3/SCSS, Tailwind CSS</div>
         </div>
         <div class="skill-row">
-          <div class="skill-title">Databases & Auth:</div>
-          <div class="skill-desc">MongoDB (Mongoose ODM), MySQL, Oracle, JWT (Cookie-based), BcryptJS</div>
+          <div class="skill-title">Databases & ORM:</div>
+          <div class="skill-desc">MongoDB (Mongoose ODM), PostgreSQL, Prisma ORM, MySQL, Oracle, JWT, BcryptJS</div>
         </div>
         <div class="skill-row">
           <div class="skill-title">AI & Developer Tools:</div>
@@ -201,9 +201,22 @@
         <div class="item-subtitle">Tech Stack: React 19, Node.js, Express.js, MongoDB, Google Gemini AI, Puppeteer, SCSS</div>
         <ul>
           <li>Engineered a full-stack platform leveraging <strong>Google Gemini AI</strong> to evaluate candidate PDF resumes against job descriptions, outputting match scores and skill gap analyses.</li>
-          <li>Generated structured 7-day interview roadmaps and technical/behavioral interview question sets using <strong>Zod schema validation</strong>.</li>
+          <li>Generated structured 7-day interview roadmaps and technical/behavioral question sets using <strong>Zod schema validation</strong>.</li>
           <li>Integrated <strong>Puppeteer</strong> to compile dynamic HTML profiles into downloadable, styled PDF resumes.</li>
-          <li>Implemented secure JWT authentication stored in HTTP-only cookies with server-side token blacklisting for safe logouts.</li>
+          <li>Implemented secure JWT authentication stored in HTTP-only cookies with server-side token blacklisting.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <div class="item-title">AI Personal OS — Multi-User Productivity & AI Agent Platform</div>
+          <div class="item-date">2026</div>
+        </div>
+        <div class="item-subtitle">Tech Stack: React, Node.js, Express.js, TypeScript, PostgreSQL, Prisma ORM, LLM APIs</div>
+        <ul>
+          <li>Architected a multi-user productivity platform managing goals, tasks, notes, and daily planning workflows.</li>
+          <li>Engineered backend security architecture with user-level data isolation, authorization middleware, input validation, and rate limiting.</li>
+          <li>Integrated AI agent service architecture with context retrieval, structured outputs, and prompt-injection safeguards.</li>
         </ul>
       </div>
 
@@ -220,23 +233,12 @@
 
       <div class="item">
         <div class="item-header">
-          <div class="item-title">Expense Management System (Odoo Hackathon)</div>
+          <div class="item-title">Expense & HR Management Systems (Odoo Hackathon)</div>
           <div class="item-date">2024</div>
         </div>
         <div class="item-subtitle">Tech Stack: Python, Odoo Framework, XML, PostgreSQL</div>
         <ul>
-          <li>Built an automated expense submission and approval system for automated reimbursements and financial tracking.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-header">
-          <div class="item-title">HR Management System (Odoo Hackathon)</div>
-          <div class="item-date">2024</div>
-        </div>
-        <div class="item-subtitle">Tech Stack: Python, Odoo Framework, XML, PostgreSQL</div>
-        <ul>
-          <li>Developed an Odoo HR module to manage employee records, attendance logging, leave approvals, and recruitment workflows.</li>
+          <li>Built automated expense approval workflows and an Odoo HR module for employee data, attendance, and leave management.</li>
         </ul>
       </div>
     </section>
@@ -250,12 +252,12 @@
           <div class="item-date">Jun 2023 – Jun 2027</div>
         </div>
         <div class="item-subtitle">Sardar Patel College of Engineering (Bakrol), GTU — Anand, India | <span class="badge">CGPA: 8.4 / 10</span></div>
-        <p style="font-size: 11px; color: #4b5563; margin-top: 1px;">
+        <p style="font-size: 10.5px; color: #4b5563; margin-top: 1px;">
           <em>Relevant Coursework:</em> Data Structures & Algorithms, Database Management Systems, Object-Oriented Programming (Java), Operating Systems, Computer Networks.
         </p>
       </div>
 
-      <div class="item" style="margin-top: 3px;">
+      <div class="item" style="margin-top: 2px;">
         <div class="item-header">
           <div class="item-title">Higher Secondary Education (12th Grade - Science Stream)</div>
           <div class="item-date">2023</div>
@@ -263,7 +265,7 @@
         <div class="item-subtitle">GSEB | <span class="badge">Percentile: 84%</span></div>
       </div>
 
-      <div class="item" style="margin-top: 3px;">
+      <div class="item" style="margin-top: 2px;">
         <div class="item-header">
           <div class="item-title">Secondary Education (10th Grade)</div>
           <div class="item-date">2021</div>
